@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div id="cursor"></div>
+
+    <nav class="navbar">
+        <ul class="nav-social">
+            <li>
+                <a href="/">
+                    work.khiali@gmail.com
+                </a>
+            </li>
+            <li>
+                <a href="/"><i class="fa fa-facebook "></i></a>
+            </li>
+            <li>
+                <a href="/"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="/"><i class="fa fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="/"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="/"><i class="fa fa-linkedin"></i></a>
+            </li>
+        </ul>
+        <a href="/" class="nav-logo">
+            <!-- <img src="assets/avataaars.png" class="profile-icon" /> -->
+            <span style="font-size: 38px;">
+                👨🏻‍💻
+            </span>
+        </a>
+        <ul class="nav-links">
+
+            <li>
+                <a href="/#portfolio" class="nav-link">
+                    work
+                </a>
+            </li>
+            <li>
+                <a href="/" class="nav-link">
+                    Services
+                </a>
+            </li>
+            <li>
+                <a href="/" class="nav-link">
+                    Why Me
+                </a>
+            </li>
+            <li>
+                <a href="/" class="nav-link">
+                    About
+                </a>
+            </li>
+            <li class="menu-icon">
+                <i class="fa fa-bars"></i>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="hero">
+            <header class="header">
+                <p class="header-text">
+                    A NEXT-LEVEL DESIGNER
+                </p>
+            </header>
+            <img src="assets/avataaars.png" class="profile-image" />
+        </div>
+    </section>
+
+    <section>
+        <div class="portfolio" id="portfolio">
+            <h1 class="portfolio-header">⬇️⬇️ Done projects 💻</h1>
+            <div class="project">
+                <img src="assets/1.jpg" alt="project-img" class="project-img">
+                <p class="project-title">Lumiere,Ecommerce</p>
+            </div>
+
+            <div class="project">
+                <img src="assets/news-project.png" alt="project-img" class="project-img">
+                <p class="project-title">News,Single-page-application</p>
+            </div>
+            <div class="project">
+                <img src="assets/text-editor.png" alt="project-img" class="project-img">
+                <p class="project-title">Text-editor,application</p>
+            </div>
+            <div class="project">
+                <img src="assets/trust.png" alt="project-img" class="project-img">
+                <p class="project-title">TrustMe,Single-page-application </p>
+            </div>
+
+    </section>
+
+    <section>
+        <div class="why">
+            <span class="why-why">
+                WHY
+            </span>
+            <ol class="why-adv">
+                <li>the mindset</li>
+                <li>the price</li>
+                <li>the quality </li>
+                <li>💯💯💯💯 </li>
+                <li>HIRE ME </li>
+            </ol>
+            <span class="why-name">
+                ME
+            </span>
+
+        </div>
+
+    </section>
+
+    <section>
+       
+
+    </section>
+
+
+    <script>
+        var cursor = document.getElementById("cursor")
+        document.addEventListener('mousemove', function (e) {
+            var x = e.pageX
+            var y = e.pageY
+            cursor.style.left = x + "px"
+            cursor.style.top = y + "px"
+        })
+    </script>
+</body>
+
+</html>
